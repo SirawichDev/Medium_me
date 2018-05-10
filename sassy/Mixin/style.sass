@@ -6,6 +6,7 @@ $bgColor: #81C784
 //font
 $font-size: 4rem
 $font-color:#FFF8E1
+$font2-color:#FBC02D
 $font-style: 'Oswald', sans-serif
 $font-weight: 600
 
@@ -29,6 +30,7 @@ $bord-color:#C2185B
     margin: 0 auto
 
     text-align: center
+    color: $color
 
 //Style
 body
@@ -38,10 +40,11 @@ body
     font-family: $font-style
     font-weight: $font-weight
 
+footer
+    +Circle(300px,300px,$circle2-color,100%,$font2-color)
+    margin-top: 20px
+    
+//class
 .Cir 
     +Circle(300px,300px,$circle-color,100%,$font-color)
     border-style: double
-
-
-footer
-    +Circle(300px,300px,$circle2-color,100%,$font-color)
