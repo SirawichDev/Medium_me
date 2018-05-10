@@ -1,15 +1,34 @@
-$bgColor: red
-$font-size: 14px
-$font-color:white
-$font-style: 'Andale Mono',monospace
-    
+//variable
+$bgColor: #81C784
+$font-size: 4rem
+$font-color:#FFF8E1
+$circle-color:#4DD0E1
+$font-style: 'Oswald', sans-serif
+$font-weight: 600
+
+
 //Mixin
+=Circle($height,$width,$bg,$radi,$color)
 
+    height: $height
+    width: $width
+    
+    border-radius: $radi
+    
+    line-height: $height
 
+    background: $bg
+    margin: 0 auto
+
+    text-align: center
 
 //Style
 body
     background-color: $bgColor
     font-size: $font-size
     color: $font-color
+    font-family: $font-style
+    font-weight: $font-weight
 
+.Cir 
+    +Circle(300px,300px,$circle-color,100%,$font-color)
