@@ -1,7 +1,9 @@
 body {
   background-color: #81C784;
-  font-size: 14px;
-  color: #7C4DFF; }
+  font-size: 20px;
+  color: #FFF8E1;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600; }
 
 .Cir {
   height: 300px;
