@@ -1,6 +1,15 @@
 body {
-  background-color: red;
+  background-color: #81C784;
   font-size: 14px;
-  color: white; }
+  color: #7C4DFF; }
+
+.Cir {
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  line-height: 300px;
+  background: #4DD0E1;
+  margin: 0 auto;
+  text-align: center; }
 
 /*# sourceMappingURL=index.css.map */
