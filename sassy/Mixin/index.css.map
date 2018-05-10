@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAqBA,IAAI;EACA,gBAAgB,EAtBV,GAAG;EAuBT,SAAS,EAtBD,IAAI;EAuBZ,KAAK,EAtBG,KAAK",
+"mappings": "AAsBA,IAAI;EACA,gBAAgB,EAtBV,GAAG;EAuBT,SAAS,EAtBD,IAAI;EAuBZ,KAAK,EAtBG,KAAK",
 "sources": ["style.sass"],
 "names": [],
 "file": "index.css"
